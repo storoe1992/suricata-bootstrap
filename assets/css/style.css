@@ -1,0 +1,131 @@
+:root {
+    --color-site :#E83E8C;
+    --color-info : #707070;
+    --color-white: #FFFFFF;
+    --color-other: #212529;
+    --payment-section: #17A2B8;
+    --text-card-color:#373A3C;
+    --color-card-link : #1C7CD5;
+}
+
+body *{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.navbar {
+    background-color:var(--color-site) ;
+    padding-left: 7.438rem;
+    padding-right: 7.375rem;
+
+}
+
+.nav-link{
+    color: var(--color-white)!important;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+h1 {
+    margin-top: 4rem;
+    margin-bottom: 4.813rem;
+    color: var(--color-info);
+    line-height: 5.125rem;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.card{
+    margin-bottom: 4.015rem;
+    width: 15.5rem;
+}
+
+.card-title{
+    font-size: 1.063rem;
+    color: var(--text-card-color);
+    line-height: 1.438rem;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--text-card-color);
+    text-overflow: unset;
+    height: 3.146rem;
+    white-space: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+.list-group-item{
+    font-size: 0.688rem;
+    line-height: 0.938rem;
+    text-align: left;
+    color: var(--text-card-color);
+
+}
+
+.card-link{
+    color: var(--color-card-link);
+    line-height: 1.063rem;
+    font-size: 0.688rem;
+}
+
+.payment{
+    background-color: var( --payment-section);
+    height : 10.625rem;
+}
+
+.payment-card{
+    font-size: 3.333rem;
+    margin-top: 3.625rem;
+}
+
+.footer-container{
+    background-color: var(--color-site);
+    height: 11.5rem;
+}
+
+.suricata-footer-img{
+    width: 3.338rem;
+    margin-top: 1.875rem;
+}
+
+
+
+.accept-card-title{
+    line-height: 3.438rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 3.625rem;
+    margin-right: 4.625rem;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+
+
+@media (max-width: 1024px){
+    .navbar {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2.188rem;
+        line-height: 2.938rem;
+        margin-top: 3.188rem;
+        margin-bottom: 1.813rem;
+    }
+
+    .card{
+        width: 14.875rem;
+    }
+
+    .suricata-footer-img{
+        margin-top: 3.625rem;
+    }
+}
+
+
